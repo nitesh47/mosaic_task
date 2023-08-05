@@ -1,9 +1,9 @@
 [tool.poetry]
-name = "Mosaic_test"
+name = "Mosaic_task"
 version = "0.1.0"
 description = "Binary text classification"
 authors = ["Nitesh Pandey <niteshpandey9869@gmail.com>"]
-repository = "https://github.com/nitesh47/mosaic_test"
+repository = "https://github.com/nitesh47/mosaic_task"
 packages = [{include = "src"}]
 
 [tool.poetry.dependencies]
