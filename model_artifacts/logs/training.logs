@@ -1,0 +1,27 @@
+2023-08-02 22:34 :: INFO :: Starting training...
+2023-08-02 22:34 :: INFO :: load model params
+2023-08-02 22:34 :: INFO :: Read csv file
+2023-08-02 22:34 :: INFO :: After removing the duplicate product name, the total number of samples is:: 50;
+2023-08-02 22:34 :: INFO :: Perform label encoding.
+2023-08-02 22:34 :: INFO :: The total number of samples: 50; classes: 2
+2023-08-02 22:34 :: INFO :: Perform train/validation split.
+2023-08-02 22:34 :: INFO :: Download the tokenizer from Huggingface.
+2023-08-02 22:34 :: INFO :: Perform batch encoding.
+2023-08-02 22:34 :: INFO :: Perform batch encoding.
+2023-08-02 22:34 :: INFO :: Load the model.
+2023-08-02 22:34 :: INFO :: Training...
+2023-08-02 22:34 :: INFO :: Callbacks: [<keras.callbacks.EarlyStopping object at 0x159ab7cd0>, <keras.callbacks.ReduceLROnPlateau object at 0x159ab7b20>]
+2023-08-02 22:35 :: INFO :: The training has finished, took 0.67 minutes.Calculating the metrics.
+2023-08-02 22:35 :: INFO :: Metrics calculation
+2023-08-02 22:35 :: INFO :: Perform batch encoding.
+2023-08-02 22:35 :: INFO :: Saving artifacts locally.
+2023-08-02 22:35 :: WARNING :: Skipping full serialization of Keras layer <keras.layers.regularization.dropout.Dropout object at 0x154ef0340>, because it is not built.
+2023-08-02 22:35 :: WARNING :: Skipping full serialization of Keras layer <keras.layers.regularization.dropout.Dropout object at 0x154e97370>, because it is not built.
+2023-08-02 22:35 :: WARNING :: Skipping full serialization of Keras layer <keras.layers.regularization.dropout.Dropout object at 0x154ea3310>, because it is not built.
+2023-08-02 22:35 :: WARNING :: Skipping full serialization of Keras layer <keras.layers.regularization.dropout.Dropout object at 0x154eb12b0>, because it is not built.
+2023-08-02 22:35 :: WARNING :: Skipping full serialization of Keras layer <keras.layers.regularization.dropout.Dropout object at 0x155035250>, because it is not built.
+2023-08-02 22:35 :: WARNING :: Skipping full serialization of Keras layer <keras.layers.regularization.dropout.Dropout object at 0x1550421f0>, because it is not built.
+2023-08-02 22:35 :: WARNING :: Found untraced functions such as _update_step_xla, embeddings_layer_call_fn, embeddings_layer_call_and_return_conditional_losses, transformer_layer_call_fn, transformer_layer_call_and_return_conditional_losses while saving (showing 5 of 165). These functions will not be directly callable after loading.
+2023-08-02 22:35 :: INFO :: Assets written to: model_artifacts/assets
+2023-08-02 22:35 :: INFO :: The artifacts are successfully saved.
+2023-08-02 22:35 :: INFO :: Training completed successfully.
