@@ -16,7 +16,8 @@ repos:
     rev: v1.32.0
     hooks:
       - id: yamllint
-        args: [--format, parsable, --strict, -d, '{extends: relaxed, rules: {line-length: {max: 120}}}']
+        args: [--format, parsable, --strict, -d,
+               '{extends: relaxed, rules: {line-length: {max: 88}}}']
 
   - repo: https://github.com/astral-sh/ruff-pre-commit.git
     rev: v0.0.280
